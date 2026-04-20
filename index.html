@@ -27,6 +27,46 @@
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Plumber",
+      "name": "Artiserv Debouchage Versailles",
+      "description": "Debouchage de canalisations a Versailles. Intervention urgente 24h/24 et 7j/7. Devis gratuit.",
+      "url": "https://debouchage-canalisation-versailles.fr/",
+      "telephone": "09 80 80 55 05",
+      "email": "artiserv.debouchage@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Versailles",
+        "postalCode": "78000",
+        "addressRegion": "Yvelines",
+        "addressCountry": "FR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.8049,
+        "longitude": 2.1204
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      ],
+      "priceRange": "EUR 149+",
+      "currenciesAccepted": "EUR",
+      "paymentAccepted": "Cash, Credit Card, Check, Bank Transfer",
+      "areaServed": {
+        "@type": "City",
+        "name": "Versailles"
+      }
+    }
+    </script>
+
 </head>
 <body>
     <!-- Top Bar -->
